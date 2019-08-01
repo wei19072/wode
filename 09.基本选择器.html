@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>基本选择器</title>
+    <style>
+        /* 标签选择器: 选择一类标签 */
+        p {
+            color:blueviolet;
+        }
+
+        /* id选择器 #id名 */
+        #red {
+            color: red;
+        }
+        #red1{
+            color: red;
+        }
+        /* class选择器 .类名 */
+        .red {
+            color: red;
+        }
+        table {
+            /* 文本对齐 */
+            text-align: left;
+            /* 边框合并 */
+            border-collapse: collapse;
+            /* 边框颜色 */
+            border-color: #A7C942;
+        }
+        .tr-bg-color {
+            /* 背景颜色 */
+            background-color: #A7C942;
+            color: #fff;
+        }
+        /* 单行背景颜色 */
+        .single-tr-bg-color {
+            background-color: #EAF2D3;/*  */
+        }
+
+        span {
+            /* 字体大小 */
+            font-size: 80px;
+            /* 字体 */
+            font-family: "华文细黑";
+            /* 加粗效果 */
+            font-weight: 900;
+        }
+        .blue {
+            color: blue;
+        }
+        .red {
+            color: red;
+        }
+        .yellow {
+            color: yellow;
+        }
+        .green {
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+
+    <!-- id:一个页面中独一无二   class: 可以有同样的类 -->
+    <p>这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本</p>
+    <!-- <p id="red">这是我的第二段红色的文本</p>
+    <p id="red1">这是我的第三段红色的文本</p> -->
+    <p class="red">这是我的第二段红色的文本</p>
+    <p class="red">这是我的第三段红色的文本</p>
+    <div class="red">这是一个盒子</div>
+
+    <table class="red" border="1" cellspacing="0" cellpadding="0" width="500" height="400" align="center" class="red1">
+        <tr class="tr-bg-color">
+            <th>表头</th>
+            <th>表头</th>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr class="single-tr-bg-color">
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr class="single-tr-bg-color">
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr class="single-tr-bg-color">
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr class="single-tr-bg-color">
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr class="single-tr-bg-color">
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+
+    </table>
+</body>
+</html>

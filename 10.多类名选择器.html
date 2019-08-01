@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>多类名选择器</title>
+    <style>
+        * {
+            font-family: "宋体";
+        }
+        .font20 {
+            font-size: 20px;
+            font-family: Arial;
+        }
+        .blue {
+            color: blue;
+        }
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- class="类名1 类名2....."    错误:  class="类名1" class="类名2"-->
+    <div class="red">多类名选择器</div>
+    <!-- 多类名选择器在标签中书写的顺序不影响显示 , 控制显示的是就近原则 -->
+    <div class="blue red font20">多类名选择器</div>
+    <div class="font20">多类名选择器</div>
+</body>
+</html>
